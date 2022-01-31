@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>TCG</title>
+        <link rel="icon" type="images/x-icon" href="/images/Green-Tropical-Plant-Wallpaper-Mural-Plain.jpg">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles.css">
+
+         <!--fonts-->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lobster">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Prompt">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Moo Lah Lah">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Yuji Hentaigana Akari">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Syncopate">   
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:500&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <a class="logo" href="/"><p>TCG</p></a>
+            <nav>
+                <ul class="nav__links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    
+                </ul>
+            </nav>
+            <a class="cta" href="mailto: owonft@gmail.com">Contact</a>
+            <p class="menu cta">Menu</p>
+        </header>
+        <div class="overlay">
+            <a class="close">&times;</a>
+            <div class="overlay__content">
+                
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="mailto: owonft@gmail.com">Contact</a>
+            </div>
+        </div>
+        <img src="images/moon.png" id="icon">
+        
+
+        <h1 id="fh">Our Socials Here</h1>
+        <h3 id="fp">Our Linktree</h3>
+            <p id="fpl"><a id="fpl" target="_blank" href="https://linktr.ee/TcgCommunity">TCG linktree</a></p>
+        <h3 id="fp">TikTok</h3>
+            <p id="fpl"><a id="fpl" target="_blank" href="https://vm.tiktok.com/TTPdrxd5dB/">The Community Garden</a></p>
+        <h3 id="fp">Discord</h3>
+            <p id="fpl"><a id="fpl" target="_blank" href="https://discord.gg/sSZw4Kjdf4">The Community Garden</a></p>
+        <h3 id="fp">Twitter</h3>
+            <p id="fpl"><a id="fpl" target="_blank" href="https://twitter.com/WAterioNFT">The Community Garden</a></p>
+            <div id="container">
+                <div id="main">
+    
+                </div>
+            </div>
+            <footer>
+                &copy; The Community Garden | Created by <a id="icm" href="https://icm.is-a.dev" target="_blank"> IronCladMonster185</a> | Created on Jan 30 2022
+                <br>
+                <span id="fsa">
+                    <a href="https://vm.tiktok.com/TTPdrxd5dB/"><img id="ictt" src="images/tiktok.png" alt="TikTok"></a>
+                    <a href="https://twitter.com/WAterioNFT"><img id="ictw" src="images/twitter.jpg" alt="Twitter"></a>
+                    <a href="https://discord.gg/sSZw4Kjdf4"><img id="icd" src="images/discord.jpg" alt="Discord"></a>
+                </span>
+            </footer>
+        <script type="text/javascript" src="mobile.js"></script>
+        <script>
+            var icon = document.getElementById("icon")
+
+            icon.onclick = function(){
+                document.body.classList.toggle("dark-theme")
+                if (document.body.classList.contains("dark-theme")){
+                    icon.src = "images/sun.png"
+                }else(
+                    icon.src = "images/moon.png"
+                )
+            }
+
+
+        </script>
+    </body>
+</html>
